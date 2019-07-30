@@ -15,6 +15,9 @@ class CreateShelvesTable extends Migration
     {
         Schema::create('shelves', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('name');
+            $table->text('slug');
+            $table->text('label');
             $table->timestamps();
         });
     }

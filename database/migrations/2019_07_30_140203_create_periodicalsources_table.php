@@ -15,6 +15,7 @@ class CreatePeriodicalsourcesTable extends Migration
     {
         Schema::create('periodicalsources', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('name');
             $table->timestamps();
         });
     }

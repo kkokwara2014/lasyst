@@ -15,6 +15,14 @@ class CreateBorrowsTable extends Migration
     {
         Schema::create('borrows', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->date('brdate');
+            $table->date('brduedate');
+            $table->boolean('isborrowed');
+            $table->boolean('isrenewed');
+            $table->date('reneweddate');
+            $table->text('brqty');
+            $table->integer('book_id')->nullable();
+            $table->integer('user_id')->nullable();
             $table->timestamps();
         });
     }

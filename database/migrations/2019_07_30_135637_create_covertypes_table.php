@@ -15,6 +15,7 @@ class CreateCovertypesTable extends Migration
     {
         Schema::create('covertypes', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('name');
             $table->timestamps();
         });
     }

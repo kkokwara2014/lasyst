@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 31 2019 00:03:02 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* database/migrations/2019_07_30_133706_create_admins_table.php
+* database/migrations/2019_07_30_134935_create_books_table.php
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

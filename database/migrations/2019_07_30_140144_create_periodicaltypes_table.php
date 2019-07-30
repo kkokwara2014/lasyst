@@ -15,6 +15,7 @@ class CreatePeriodicaltypesTable extends Migration
     {
         Schema::create('periodicaltypes', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('name');
             $table->timestamps();
         });
     }
