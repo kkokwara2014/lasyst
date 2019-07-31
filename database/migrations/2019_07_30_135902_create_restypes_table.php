@@ -15,6 +15,7 @@ class CreateRestypesTable extends Migration
     {
         Schema::create('restypes', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('name');
             $table->timestamps();
         });
     }

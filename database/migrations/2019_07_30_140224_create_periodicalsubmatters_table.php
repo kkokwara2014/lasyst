@@ -14,7 +14,9 @@ class CreatePeriodicalsubmattersTable extends Migration
     public function up()
     {
         Schema::create('periodicalsubmatters', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->integer('periodicals_id')->unsigned()->index();
+            $table->integer('subectmatters_id')->unsigned()->index();
+            $table->foreign('periodicals_id')->references('id')->on('periodicals')->onDelete('cascade');
             $table->timestamps();
         });
     }

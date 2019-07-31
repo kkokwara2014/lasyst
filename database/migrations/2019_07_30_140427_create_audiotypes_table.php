@@ -15,6 +15,7 @@ class CreateAudiotypesTable extends Migration
     {
         Schema::create('audiotypes', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('name');
             $table->timestamps();
         });
     }

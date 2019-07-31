@@ -15,6 +15,19 @@ class CreatePeriodicalsTable extends Migration
     {
         Schema::create('periodicals', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('title');
+            $table->text('slug');
+            $table->text('publisher')->nullable();
+            $table->text('dateofpub')->nullable();
+            $table->text('issn')->nullable();
+            $table->text('author');
+            $table->text('authors')->nullable();
+            $table->text('qty');
+            $table->integer('issue_id')->nullable();
+            $table->integer('volume_id')->nullable();
+            $table->integer('shelf_id')->nullable();
+            $table->integer('ptype_id')->nullable();
+            $table->integer('psource_id')->nullable();
             $table->timestamps();
         });
     }

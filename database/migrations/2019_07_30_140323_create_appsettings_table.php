@@ -15,6 +15,11 @@ class CreateAppsettingsTable extends Migration
     {
         Schema::create('appsettings', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('appname');
+            $table->decimal('fineamount',10,2);
+            $table->string('daysofrenewal');
+            $table->string('renewablenumoftimes');
+            $table->string('borrowablenumofbooks');
             $table->timestamps();
         });
     }

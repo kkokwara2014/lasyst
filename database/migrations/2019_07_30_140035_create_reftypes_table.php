@@ -15,6 +15,7 @@ class CreateReftypesTable extends Migration
     {
         Schema::create('reftypes', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('name');
             $table->timestamps();
         });
     }

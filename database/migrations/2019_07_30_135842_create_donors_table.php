@@ -15,6 +15,11 @@ class CreateDonorsTable extends Migration
     {
         Schema::create('donors', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('lastname');
+            $table->text('firstname');
+            $table->text('phone');
+            $table->text('email');
+            $table->integer('admin_id')->nullable();
             $table->timestamps();
         });
     }

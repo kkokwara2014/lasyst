@@ -1,0 +1,28 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 31 2019 00:32:49 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* database/migrations/2019_07_30_134935_create_books_table.php
+* database/migrations/2019_07_30_135440_create_comments_table.php
+* database/migrations/2019_07_30_135512_create_borrows_table.php
+* database/migrations/2019_07_30_135547_create_fines_table.php
+* database/migrations/2019_07_30_135637_create_covertypes_table.php
+* database/migrations/2019_07_30_135720_create_admin_roles_table.php
+* database/migrations/2019_07_30_135924_create_categories_table.php
+* database/migrations/2019_07_30_135948_create_shelves_table.php
+* database/migrations/2019_07_30_140144_create_periodicaltypes_table.php
+* database/migrations/2019_07_30_140203_create_periodicalsources_table.php
+* database/migrations/2019_07_30_140242_create_issues_table.php
+* database/migrations/2019_07_30_140303_create_volumes_table.php
+* database/migrations/2019_07_30_140404_create_racks_table.php
+
+
+Created files:
+* .autogit/logs/log-31-6-2019-0-3-2.txt
+
+
+Deleted files:
+
+
+Renamed files:

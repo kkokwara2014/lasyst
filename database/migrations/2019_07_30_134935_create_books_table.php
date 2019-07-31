@@ -27,7 +27,6 @@ class CreateBooksTable extends Migration
             $table->text('addedentry');
             $table->text('qty');
             $table->text('prilpages');
-            $table->text('prilpages');
             $table->text('size');
             $table->text('bkimage');
             $table->integer('covertype_id')->nullable();
