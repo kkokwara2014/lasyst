@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Mon Sep 16 2019 10:05:16 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* composer.json
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
