@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Mon Sep 16 2019 10:49:34 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* composer.lock
+
+
+Created files:
+* .autogit/logs/log-16-8-2019-10-5-16.txt
+
+
+Deleted files:
+
+
+Renamed files:
